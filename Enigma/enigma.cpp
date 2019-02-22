@@ -89,7 +89,7 @@ int Enigma::configure(int argc, char **argv) {
     for (int i = 0; i < numberOfRotors; i++) {
         
         Rotor *rotor = new Rotor;
-        status = rotor->configure(argv[i+2], argv[positionFileIndex], i+1);
+        status = rotor->configure(argv[i+3], argv[positionFileIndex], i+1);
         if (status)
             return status;
         

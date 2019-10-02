@@ -164,7 +164,7 @@
 		26C59BA521D95B730084E875 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "Jad Ghadry";
 				TargetAttributes = {
 					26C59BAC21D95B730084E875 = {
@@ -322,6 +322,7 @@
 		26C59BB521D95B730084E875 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 48SVPGJ6XG;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -331,6 +332,7 @@
 		26C59BB621D95B730084E875 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 48SVPGJ6XG;
 				PRODUCT_NAME = "$(TARGET_NAME)";

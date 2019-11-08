@@ -82,6 +82,10 @@
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
+            argument = "Enigma/rotors/IV.rot"
+            isEnabled = "NO">
+         </CommandLineArgument>
+         <CommandLineArgument
             argument = "Enigma/rotors/I.pos"
             isEnabled = "YES">
          </CommandLineArgument>

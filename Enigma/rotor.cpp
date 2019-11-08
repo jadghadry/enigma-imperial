@@ -90,7 +90,7 @@ int Rotor::configure(const char *configFileName, const char *positionFileName, i
         isNotch[notch] = true;
     
     /* Get the rotation of the current rotor. */
-    while (positionFile >> rotation && rotorCount < rotorNumber)
+    while (rotorCount < rotorNumber && positionFile >> rotation)
         rotorCount++;
     
     /* Check if the previous loop terminated early. */
